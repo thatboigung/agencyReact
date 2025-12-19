@@ -289,6 +289,76 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Founder Section */}
+      <section id="founder" className="py-24 relative">
+        <div className="container mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+            >
+              <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Visionary Behind</span>
+              <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Tapuwa P Mapfumo</h2>
+              <p className="text-white/60 text-lg mb-8 leading-relaxed">
+                Founder & Lead Developer of GFG Studios. A passionate developer and entrepreneur transforming ideas into powerful digital solutions. Specialized in React Native, Kotlin, and AI-driven applications, pushing the boundaries of technology to create meaningful innovations.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 mt-1">
+                    <Code2 className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-white font-bold mb-1">Expert Developer</h3>
+                    <p className="text-white/60">React Native, Web Development, Laravel & PHP</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 mt-1">
+                    <Award className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-white font-bold mb-1">Innovation Leader</h3>
+                    <p className="text-white/60">Building AI-powered apps and scalable digital solutions</p>
+                  </div>
+                </div>
+              </div>
+
+              <Link href="/portfolio">
+                <button className="px-8 py-4 bg-primary text-black font-bold rounded-full hover:bg-white transition-colors flex items-center gap-2 group">
+                  View Full Portfolio <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </button>
+              </Link>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="relative"
+            >
+              <div className="relative aspect-square rounded-2xl overflow-hidden bg-zinc-900 border border-white/10">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" 
+                  alt="Tapuwa P Mapfumo" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
+                  <div>
+                    <p className="text-primary text-sm font-bold uppercase tracking-widest mb-2">Founder & CTO</p>
+                    <p className="text-white text-xl font-display font-bold">Tapuwa P Mapfumo</p>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 border-2 border-primary rounded-2xl -z-10" />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-primary relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-40 mix-blend-multiply" />

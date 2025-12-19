@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Branding</title>
+</head>
+<body>
+    <div class="branding-taps">
+        <div class="intro" id="home">
+            <div class="gfg">
+                <span class="letter g">G</span>
+                <span class="letter f">F</span>
+                <span class="letter g2">G</span>
+            </div>
+            <div class="media">Media</div>
+            <img src="imgs/light.png" style="visibility: hidden;opacity: 0;"  class="light-effect">
+            
+            <div class="intro-text">
+                <section class="hero branding-hero">
+                    <div class="hero-content">
+                        <h1>Welcom To My Portfolio</h1>
+                        <p>Turning ideas into reality, one innovation at a time</p>
+                    </div>
+                </section>
+            <p>Crafting Unique Identities | Strategic Branding | Visual Storytelling | Brand Growth</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" style="padding: 20px;display: flex;justify-content: center;">
+        <div>
+            <h2 style="font-size:35px;">Hey There! I Am</h2>
+            <h1 style="font-size: 54px;">Tapuwa P Mapfumo</h1>
+            <p>Passionate developer and entrepreneur, transforming ideas into powerful digital solutions. Skilled in React Native, Kotlin, and AI-driven applications. Always pushing the boundaries of technology to create meaningful innovations</p>
+            <img src="imgs/Screenshot 2025-02-04 042117.png" alt="me" style="object-fit: contain;margin-top: 30px;">
+        </div>
+       
+    </section>
+    
+
+    <section class="branding-highlights">
+        <h1> Skills</h1>
+        <div class="container">
+            <div class="highlight-card">
+                <div>
+                    <h3>React / React Native</h3>
+                <p>Expert in building cross-platform applications.
+                    Focused on performance and UI/UX design.
+                    Strong integration with backend services.</p>
+                </div>
+                <div class="highlight-number">
+                    <h1>01</h1>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <div>
+                   <h3>Web Development</h3>
+                <p>Building responsive and SEO-friendly websites.
+                    Proficient with custom themes and plugins.
+                    Experience with Elementor, WooCommerce, and site optimization..</p> 
+                </div>
+                <div class="highlight-number">
+                    <h1>02</h1>
+                </div>
+            </div>
+            <div class="highlight-card">
+                <div>
+                    <h3>Laravel & PHP</h3>
+                    <p>Building secure and scalable web applications.
+                        Expertise in REST API development.
+                        Database optimization and efficient query handling..</p>
+                </div>
+                <div class="highlight-number">
+                    <h1>03</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="branding-services" id="services">
+        <h2 class="section-title">Services I Offer</h2>
+        <div>
+            
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="imgs/icons/id.png">
+                    <h3>Branding</h3>
+                    <p>Crafting unique brand identities that resonating with your audience.</p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/camera.png">
+                    <h3>Media</h3>
+                    <p>emphasizing creativity and Professionalism</p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/strategy.png">
+                    <h3>Web & App Development</h3>
+                    <p>Crafting Next-Gen Digital Experiences with Precision & Innovation.</p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/rebrandind.png">
+                    <h3>Marketing</h3>
+                    <p>From social media to SEO, we help businesses grow online</p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/socialmedia.png">
+                    <h3>Graphics Designing</h3>
+                    <p>Creative designs that capture attention. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-info">
+                <h3>Who I Am</h3>
+                <p>Over the years, I've worn many hats—developer, entrepreneur, creator, and dreamer.
+
+                    My journey began with an unshakable curiosity about how technology could solve real-world problems and enhance creativity.
+                    
+                    As a professional React Native programmer, I've had the privilege of building intuitive, scalable apps that provide real value to users. Whether it's creating seamless mobile experiences with Expo and Supabase or experimenting with innovative app ideas like AI-powered music players and interactive games, I've always sought to push the boundaries of what's possible.
+                    
+                    But it's not just about code. It's about solving meaningful problems.
+                    
+                    From brainstorming a platform that replaces traditional exam dockets with digital solutions to designing a chatbot-powered money remittance service for cross-border transactions, I've embraced the challenge of blending technology with human needs.
+                    
+                    One of my favorite projects was developing a trap beat themed around life in the 2020s—it taught me the power of blending technical precision with raw creativity.
+                    
+                    Whether I'm working on a drone design for photography enthusiasts, a rhythm-based game like Rhythm Tiles, or a new app like Witterverse, my goal remains the same: to create something that resonates.
+                    
+                    As I continue this journey, I'm eager to collaborate with like-minded innovators and turn more ideas into reality.
+                    
+                    If you're passionate about tech, creativity, or simply building something meaningful, let's connect—I'd love to hear your story too..</p>
+            </div>
+            <div class="about-image">
+                <img src="imgs/me.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="process-section" id="process" style="background-color: #000; color: #fff;">
+        <h2 class="section-title" style="color: #FFA500;">🚀How I Work</h2>
+        <p class="section-subtitle" style="color: #ccc;">From concept to launch – here’s how I bring your digital vision to life.</p>
+    
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon" style="background-color: #FFA500; color: #000;">📝</div>
+                <div class="timeline-content">
+                    <h3 style="color: #FFA500;">1. Discovery & Consultation</h3>
+                    <p style="color: #ccc;">We dive deep into your vision, goals, and technical needs to craft a roadmap for success.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-icon" style="background-color: #FFA500; color: #000;">📐</div>
+                <div class="timeline-content">
+                    <h3 style="color: #FFA500;">2. Planning & Strategy</h3>
+                    <p style="color: #ccc;">We outline the architecture, design wireframes, and select the perfect tech stack for your project.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-icon" style="background-color: #FFA500; color: #000;">💻</div>
+                <div class="timeline-content">
+                    <h3 style="color: #FFA500;">3. Design & Prototyping</h3>
+                    <p style="color: #ccc;">We create sleek, user-friendly designs and interactive prototypes to bring your vision to life.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-icon" style="background-color: #FFA500; color: #000;">🛠️</div>
+                <div class="timeline-content">
+                    <h3 style="color: #FFA500;">4. Development</h3>
+                    <p style="color: #ccc;">Our developers build your application with precision, using cutting-edge tools and frameworks.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-icon" style="background-color: #FFA500; color: #000;">🧪</div>
+                <div class="timeline-content">
+                    <h3 style="color: #FFA500;">5. Testing & Quality Assurance</h3>
+                    <p style="color: #ccc;">We rigorously test every feature to ensure your app is flawless, secure, and ready for launch.</p>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-icon" style="background-color: #FFA500; color: #000;">🚀</div>
+                <div class="timeline-content">
+                    <h3 style="color: #FFA500;">6. Launch & Deployment</h3>
+                    <p style="color: #ccc;">We deploy your app, optimize it for performance, and provide ongoing support to keep it running smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Projects</h2>
+        <div class="service-package">
+            <div class="service-infoo">
+                <a href="https://chanzagroup.netlify.app/"><h3>Chanza Group Profile</h3></a>
+                <p>a creative branding agency that helps ambitious businesses build bold brands that drive real results.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>HTML Css</li>
+                    <li>Graphics Designing</li>
+                    <li>Brand Strategy</li>
+                    <li>UIX Design</li>
+                </ul>
+            </div>
+        </div>
+
+    
+        <div class="service-package">
+            <div class="service-infoo">
+                <a href="https://konak.netlify.app/"><h3>Konak</h3></a>
+                <p>We help you create a strong brand identity through digital marketing.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Content Creation</li>
+                    <li>Social Media Management</li>
+                    <li>Brand Strategy</li>
+                    <li>Consultation</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="service-package">
+            <div class="service-infoo">
+                <a  href="witterverse.mycommuintyweb.org"><h3>Witterverse - Social Confessions App</h3></a>
+                <p>A platform where users can share anonymous stories with real-time interactions.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>React Native & Supabase</li>
+                    <li>Secure authentication</li>
+                    <li>Engagement-driven UI</li>
+                    <li>Viral social features</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="service-package">
+            <div class="service-infoo">
+                <a href="#"><h3>Smart Academic Management System</h3></a>
+                <p>A digital system for managing exams and student data with QR-based verification.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Kotlin & Firebase</li>
+                    <li>Exam docket replacement</li>
+                    <li>Attendance tracking</li>
+                    <li>Secure data storage</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="service-package">
+            <div class="service-infoo">
+                <a href="#NotYetDeployed"><h3>Rhythm Tiles - AI-Powered Music Game</h3></a>
+                <p>An AI-driven rhythm game that generates gameplay from user-selected music.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>React Native & AI processing</li>
+                    <li>Beat & vocal separation</li>
+                    <li>Dynamic gameplay generation</li>
+                    <li>Time Attack & Tile Streak modes</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="service-package">
+            <div class="service-infoo">
+                <a href="#comingSoon"><h3>AI Voice Recorder for Musicians</h3></a>
+                <p>A smart tool that records humming and generates structured song ideas.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Python & AI models</li>
+                    <li>Melody and tempo analysis</li>
+                    <li>Lyric suggestion engine</li>
+                    <li>Songwriting assistance</li>
+                </ul>
+            </div>
+        </div>
+    
+    </section>
+    
+
+    <section class="cta-section" id="contact">
+        <div class="cta-content">
+            <h2>Are you impressed?</h2>
+            <p>Let's grow together! Get in touch for a free consultation.</p>
+        </div>
+    
+        <!-- Contact Form -->
+        <div class="contact-form" id="contact-form">
+            <h3>Contact Me</h3>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="How can we help you?" rows="4" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    
+        <!-- Platform Selection Popup -->
+        <div class="popup-overlay" id="popupOverlay">
+            <div class="popup-content">
+                <h3>Choose a Platform to Send Your Message</h3>
+                <div class="platform-options">
+                    <a href="https://wa.me/+260762357426" target="_blank">  <button class="platform-btn" id="whatsappBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                        WhatsApp
+                    </button>
+                    </a>
+                    <a href="https://www.instagram.com/_thegovenor/" target="_blank">
+                    <button class="platform-btn" id="instagramBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+                        Instagram
+                    </button>
+                </a>
+                <a href="https://web.facebook.com/tapuwa.mapfumo.3" target="_blank">
+                    <button class="platform-btn" id="facebookBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                        Facebook
+                    </button>
+                </a>
+                </div>
+                <button class="close-btn" id="closePopup">Close</button>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+    const contactForm = document.getElementById('contactForm');
+    const popupOverlay = document.getElementById('popupOverlay');
+    const closePopup = document.getElementById('closePopup');
+
+    // Show popup when form is submitted
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent form submission
+        popupOverlay.classList.add('active'); // Show popup
+    });
+
+    // Close popup when close button is clicked
+    closePopup.addEventListener('click', function () {
+        popupOverlay.classList.remove('active'); // Hide popup
+    });
+
+    // Handle platform selection
+    const whatsappBtn = document.getElementById('whatsappBtn');
+    const instagramBtn = document.getElementById('instagramBtn');
+    const facebookBtn = document.getElementById('facebookBtn');
+
+    whatsappBtn.addEventListener('click', function () {
+        alert('Redirecting to WhatsApp...');
+        // Add WhatsApp redirection logic here
+    });
+
+    instagramBtn.addEventListener('click', function () {
+        alert('Redirecting to Instagram...');
+        // Add Instagram redirection logic here
+    });
+
+    facebookBtn.addEventListener('click', function () {
+        alert('Redirecting to Facebook...');
+        // Add Facebook redirection logic here
+    });
+});
+        </script>
+    </section>
+    
+
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">GFG | Studios</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar" id="sidebar">
+            <ul class="sidebar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+
+
+
+    <footer>
+        <div class="footer-content" id="contact">
+            
+    <section >
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p> gfgmedia@gmail.com | +263 78 851 3666</p>
+            </div>
+            <div class="social-media">
+                <div class="icons">
+                    <div>
+                        <a href="https://wa.me/+260762357426" target="_blank">
+                          <img src="imgs/logo.png" alt="WhatsApp">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.instagram.com/_thegovenor/" target="_blank">
+                          <img src="imgs/instagram.png" alt="Instagram">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://web.facebook.com/tapuwa.mapfumo.3" target="_blank">
+                          <img src="imgs/facebook.png" alt="Facebook">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="mailto:mapfumotapuwa18@gmail.com">
+                          <img src="imgs/email.png" alt="Email">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.linkedin.com/in/tapuwa-mapfumo-a41a14243/">
+                          <img src="imgs/linkedin.png" alt="linkEdin">
+                        </a>
+                      </div>
+                     
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+          
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 GFG Studios | Designed with ❤️ | Designer , <a href="tapuwamapfumo.netlify.app">TheGovenor</a></p>
+        </div>
+    </footer>
+    <script>
+        
+        document.addEventListener("DOMContentLoaded", function() {
+            const introText = document.querySelector(".intro-text");
+            const logo = document.querySelector(".logo");
+            const lightEffect = document.querySelector(".light-effect");
+            const aboutInfo = document.querySelector(".about-info");
+            const serviceInfos = document.querySelectorAll(".service-info");
+            const stackedImages = document.querySelectorAll(".stacked-image");
+            const nav = document.querySelector("nav");
+            const introSection = document.querySelector(".intro");
+            const sidebar = document.getElementById("sidebar");
+            const menuToggle = document.getElementById("menu-toggle");
+            const reveals = document.querySelectorAll('.reveal');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            let currentReveal = 0;
+
+            // Show the intro text after animation
+            setTimeout(() => {
+                introText.classList.add("show");
+                lightEffect.classList.add("show-light");
+
+                // Show the background after the intro text
+                introSection.style.setProperty('--bg-opacity', '1');
+                introSection.style.setProperty('opacity', '1');
+
+                // Make the navbar visible after the intro animation
+                nav.classList.add("visible");
+            }, 1000);
+
+            // Toggle sidebar menu
+            menuToggle.addEventListener("click", function() {
+                sidebar.classList.toggle("active");
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener("click", function(event) {
+                if (!sidebar.contains(event.target) && !menuToggle.contains(event.target)) {
+                    sidebar.classList.remove("active");
+                }
+            });
+
+            // Toggle dropdown on click
+            const dropdownLinks = document.querySelectorAll('.sidebar-links > li > a');
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const dropdown = this.nextElementSibling;
+                    if (dropdown) {
+                        e.preventDefault();
+                        dropdown.classList.toggle('active');
+                    }
+                });
+            });
+
+            // Show logo on scroll
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) { // Adjust the scroll threshold as needed
+                    logo.classList.add("show-logo");
+                    nav.classList.add("scrolled");
+                } else {
+                    logo.classList.remove("show-logo");
+                    nav.classList.remove("scrolled");
+                }
+
+                // Show about info on scroll
+                const aboutPosition = aboutInfo.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (aboutPosition < windowHeight - 100) { // Trigger when about section is in view
+                    aboutInfo.classList.add("show");
+                }
+
+                // Show service info on scroll
+                serviceInfos.forEach(serviceInfo => {
+                    const servicePosition = serviceInfo.getBoundingClientRect().top;
+                    if (servicePosition < windowHeight - 100) { // Trigger when service section is in view
+                        serviceInfo.classList.add("show");
+                    }
+                });
+
+                // Show stacked images on scroll
+                stackedImages.forEach(image => {
+                    const imagePosition = image.getBoundingClientRect().top;
+                    if (imagePosition < windowHeight - 100) { // Trigger when image section is in view
+                        image.classList.add("show-image");
+                    }
+                });
+            });
+
+            // Function to show the current reveal
+            function showReveal(index) {
+                reveals.forEach((reveal, i) => {
+                    reveal.classList.remove('active'); // Hide all reveals
+                    if (i === index) {
+                        reveal.classList.add('active'); // Show the current reveal
+                    }
+                });
+            }
+
+            // Show the first reveal initially
+            showReveal(currentReveal);
+
+            // Next button functionality
+            nextBtn.addEventListener('click', function() {
+                currentReveal = (currentReveal + 1) % reveals.length; // Loop back to the first reveal
+                showReveal(currentReveal);
+            });
+
+            // Previous button functionality
+            prevBtn.addEventListener('click', function() {
+                currentReveal = (currentReveal - 1 + reveals.length) % reveals.length; // Loop back to the last reveal
+                showReveal(currentReveal);
+            });
+
+        });
+
+        function bringToFront(image) {
+            const container = image.parentElement;
+            const images = container.querySelectorAll('.gallery-image');
+
+            // Move the clicked image to the top
+            images.forEach(img => {
+                img.style.transform = 'translateY(100%)'; // Move all images down
+            });
+
+            image.style.transform = 'translateY(0)'; // Bring the clicked image to the top
+
+
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+    const timelineItems = document.querySelectorAll(".timeline-item");
+
+    const revealOnScroll = () => {
+        const triggerBottom = window.innerHeight * 0.85;
+        
+        timelineItems.forEach(item => {
+            const itemTop = item.getBoundingClientRect().top;
+            
+            if (itemTop < triggerBottom) {
+                item.classList.add("show");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll(); // Trigger on load
+});
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".nav-links a, .sidebar-links a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function(e) {
+            const targetId = this.getAttribute("href");
+
+            // Allow normal navigation for "Home" link
+            if (targetId === "index.html") {
+                return;
+            }
+
+            e.preventDefault(); // Prevent default anchor behavior
+
+            const targetSection = document.querySelector(targetId); // Select the target section
+
+            // Scroll to the target section if it exists
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
