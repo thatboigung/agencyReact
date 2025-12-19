@@ -24,12 +24,34 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-        {/* Abstract Background */}
+      <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-gradient-to-b from-background via-zinc-900 to-background">
+        {/* Dynamic Background with Creative Design */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 left-1/4 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] animate-pulse" />
-          <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] bg-yellow-600/10 rounded-full blur-[100px]" />
-          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20" />
+          {/* Gradient Mesh Effect */}
+          <div className="absolute inset-0 bg-gradient-to-br from-transparent via-zinc-900/50 to-transparent" />
+          
+          {/* Animated Geometric Shapes */}
+          <div className="absolute top-10 right-10 w-72 h-72 bg-primary/10 rounded-full blur-[100px] animate-pulse" />
+          <div className="absolute bottom-20 left-5 w-96 h-96 bg-primary/5 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '1s' }} />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-purple-600/5 rounded-full blur-[100px]" />
+          
+          {/* Animated Gradient Lines */}
+          <svg className="absolute inset-0 w-full h-full opacity-10" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#FFA500" />
+                <stop offset="100%" stopColor="#FF6B35" />
+              </linearGradient>
+            </defs>
+            <path d="M0,0 Q250,150 500,0" stroke="url(#gradient1)" strokeWidth="2" fill="none" />
+            <path d="M0,500 Q300,300 600,200" stroke="url(#gradient1)" strokeWidth="1.5" fill="none" opacity="0.5" />
+          </svg>
+          
+          {/* Noise Texture */}
+          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 mix-blend-multiply" />
+          
+          {/* Grid Pattern Overlay */}
+          <div className="absolute inset-0 bg-[linear-gradient(0deg,transparent_24%,rgba(255,165,0,.1)_25%,rgba(255,165,0,.1)_26%,transparent_27%,transparent_74%,rgba(255,165,0,.1)_75%,rgba(255,165,0,.1)_76%,transparent_77%,transparent),linear-gradient(90deg,transparent_24%,rgba(255,165,0,.1)_25%,rgba(255,165,0,.1)_26%,transparent_27%,transparent_74%,rgba(255,165,0,.1)_75%,rgba(255,165,0,.1)_76%,transparent_77%,transparent)] bg-[length:50px_50px] opacity-5" />
         </div>
 
         <div className="container relative z-10 px-6 text-center">
