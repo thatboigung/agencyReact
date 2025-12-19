@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Media</title>
+</head>
+<body>
+    <div class="intro" id="home">
+        <div class="gfg">
+            <span class="letter g">G</span>
+            <span class="letter f">F</span>
+            <span class="letter g2">G</span>
+        </div>
+        <div class="media">Media</div>
+        <img src="imgs/light.png" style="visibility: hidden;opacity: 0;"  class="light-effect">
+            
+        <div class="intro-text">
+            <section class="hero branding-hero">
+                <div class="hero-content">
+                    <h1>High-quality Media Services That Brings Your Brand To Life</h1>
+                    <p>emphasizing creativity and Professionalism</p>
+                    <a href="#services" class="cta-btn" style="margin-top: 20px;">Get A Free Quote</a>
+                </div>
+            </section>
+        <p>Crafting Unique Identities | Strategic Branding | Visual Storytelling | Brand Growth</p>
+        </div>
+    </div>
+
+    <section id="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <p>At GFG Studios, we don’t just create content—we craft experiences that leave a lasting impact..</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Creative & Innovative Approach</h3>
+                    <p> Your brand has a unique story, and we bring it to life through engaging visuals, dynamic edits, and compelling narratives that captivate your audience.t</p>
+                </div>
+    
+                <div class="feature">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Professional Equipment & Team</h3>
+                    <p>We use high-end cameras, professional lighting, and cutting-edge editing tools to ensure that every project meets top-tier industry standards.</p>
+                </div>
+    
+                <div class="feature">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Quick Turnaround Time</h3>
+                    <p> We understand the importance of deadlines. Our team works efficiently without compromising quality, delivering polished content on time</p>
+                </div>
+    
+                <div class="feature">
+                    <i class="fas fa-users"></i>
+                    <h3>Affordable & Customizable Packages</h3>
+                    <p> No hidden fees, no surprises. We offer competitive pricing with clear breakdowns, so you know exactly what you're getting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    <section class="marketing-services" id="services">
+        <h2 class="section-title">Our Media Services</h2>
+        <div>
+            <div class="service-grid">
+                <div class="service-card">
+
+                    <img src="imgs/icons/camera.png">
+                    <h3>Photography</h3>
+                    <p> Professional photoshoots for events, products, and brands.  </p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/camera (1).png">
+                    <h3>Videography</h3>
+                    <p>High-quality video production, commercials, and event coverage.  .</p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/graphicsDesign.png">
+                    <h3>Graphic Designing</h3>
+                    <p> Logos, posters, social media graphics, etc.</p>
+                </div>
+                <div class="service-card">
+                    <img src="imgs/icons/editing.png">
+                    <h3>Video Editing (CGI and VFX)</h3>
+                    <p>3D modeling, animation, and special effects. </p>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+      <section class="process-section" id="process">
+        <h2 class="section-title">📽️ Our Process</h2>
+        <p class="section-subtitle">From concept to creation – here’s how we bring your vision to life.</p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">📝</div>
+                <div class="timeline-content">
+                    <h3>1. Consultation</h3>
+                    <p>We start by understanding your vision, target audience, and brand goals.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🎬</div>
+                <div class="timeline-content">
+                    <h3>2. Planning & Pre-Production</h3>
+                    <p>Storyboarding, location scouting, and scheduling the shoot for maximum efficiency.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🎥</div>
+                <div class="timeline-content">
+                    <h3>3. Production</h3>
+                    <p>Our team captures high-quality footage and photos using professional equipment.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🎞️</div>
+                <div class="timeline-content">
+                    <h3>4. Post-Production</h3>
+                    <p>Editing, color grading, VFX, and sound enhancements for a flawless final product.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">🚀</div>
+                <div class="timeline-content">
+                    <h3>5. Delivery & Optimization</h3>
+                    <p>Final revisions, optimization for platforms, and publishing support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        
+        <div class="gallery-content">
+            <div class="gallery-grid">
+                <img src="imgs/pexels-jenyzest-2306222.jpg" alt="Gallery Image 1" class="gallery-image">
+                <img src="imgs/pexels-prime-cinematics-1005175-2057477.jpg" alt="Gallery Image 2" class="gallery-image">
+                <img src="imgs/pexels-mikhail-nilov-7624888.jpg" alt="Gallery Image 3" class="gallery-image">
+                
+            </div>
+            <div class="gallery-description">
+                <h3>Showcasing Our Photography</h3>
+                <p>Explore our collection of stunning photography that captures the essence of creativity and innovation. Our work spans various genres, including portrait, landscape, and event photography, ensuring that every moment is beautifully preserved.</p>
+                <a href="https://www.instagram.com/_thegovenor/" target="_blank" class="show-more">Show More</a>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="pricing-section" id="pricing">
+        <h2 class="section-title">Custom Pricing Plans</h2>
+        <p class="pricing-subtitle">Select a package tailored to your media needs.</p>
+    
+        <div class="pricing-container">
+            <!-- Photography Packages -->
+            <div class="service-pricing">
+                <h3>📷 Photography Packages</h3>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h4>Basic</h4>
+                        <p class="price">$10</p>
+                        <ul>
+                            <li>1-hour session</li>
+                            <li>10 edited images</li>
+                            <li>Basic retouching</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card standard">
+                        <h4>Standard</h4>
+                        <p class="price">$20</p>
+                        <ul>
+                            <li>2-hour session</li>
+                            <li>25 edited images</li>
+                            <li>Advanced retouching</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Pro</h4>
+                        <p class="price">$30</p>
+                        <ul>
+                            <li>Full-day shoot</li>
+                            <li>50+ edited images</li>
+                            <li>High-end retouching</li>
+                        </ul>
+                        <a href="#" class="cta-button">Customize Package</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Videography Packages -->
+            <div class="service-pricing">
+                <h3>🎥 Videography Packages</h3>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h4>Basic</h4>
+                        <p class="price">$15</p>
+                        <ul>
+                            <li>1-minute video</li>
+                            <li>Basic editing</li>
+                            <li>1080p resolution</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card standard">
+                        <h4>Standard</h4>
+                        <p class="price">$30</p>
+                        <ul>
+                            <li>3-minute video</li>
+                            <li>Color grading</li>
+                            <li>4K resolution</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Pro</h4>
+                        <p class="price">$40</p>
+                        <ul>
+                            <li>5+ minute video</li>
+                            <li>Advanced cinematography</li>
+                            <li>Drone shots included</li>
+                        </ul>
+                        <a href="#" class="cta-button">Customize Package</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Video Editing (CGI & VFX) -->
+            <div class="service-pricing">
+                <h3>🎬 Video Editing (CGI & VFX)</h3>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h4>Basic</h4>
+                        <p class="price">$20</p>
+                        <ul>
+                            <li>Simple cuts & transitions</li>
+                            <li>Basic effects</li>
+                            <li>Up to 3-minute video</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card standard">
+                        <h4>Standard</h4>
+                        <p class="price">$35</p>
+                        <ul>
+                            <li>Motion graphics & effects</li>
+                            <li>Color correction</li>
+                            <li>Up to 5-minute video</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Pro</h4>
+                        <p class="price">$50</p>
+                        <ul>
+                            <li>High-end CGI & VFX</li>
+                            <li>Custom animations</li>
+                            <li>Up to 10-minute video</li>
+                        </ul>
+                        <a href="#" class="cta-button">Customize Package</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Graphic Design -->
+            <div class="service-pricing">
+                <h3>🎨 Graphic Design Packages</h3>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h4>Basic</h4>
+                        <p class="price">$5</p>
+                        <ul>
+                            <li>Logo design</li>
+                            <li>1 revision</li>
+                            <li>JPEG & PNG files</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card standard">
+                        <h4>Standard</h4>
+                        <p class="price">$10</p>
+                        <ul>
+                            <li>Branding package</li>
+                            <li>3 revisions</li>
+                            <li>Editable source files</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Pro</h4>
+                        <p class="price">$20</p>
+                        <ul>
+                            <li>Complete brand identity</li>
+                            <li>Unlimited revisions</li>
+                            <li>All file formats</li>
+                        </ul>
+                        <a href="#" class="cta-button">Customize Package</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Ads Creation -->
+            <div class="service-pricing">
+                <h3>📢 Ads Creation Packages</h3>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h4>Basic</h4>
+                        <p class="price">$7</p>
+                        <ul>
+                            <li>1 ad concept</li>
+                            <li>15-second video</li>
+                            <li>Basic motion graphics</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card standard">
+                        <h4>Standard</h4>
+                        <p class="price">$15</p>
+                        <ul>
+                            <li>3 ad variations</li>
+                            <li>30-second video</li>
+                            <li>Pro motion graphics</li>
+                        </ul>
+                        <a href="#" class="cta-button">Get a Quote</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h4>Pro</h4>
+                        <p class="price">$30</p>
+                        <ul>
+                            <li>Full campaign ads</li>
+                            <li>60-second video</li>
+                            <li>High-end animations</li>
+                        </ul>
+                        <a href="#" class="cta-button">Customize Package</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="cta-section" id="contact">
+        <div class="cta-content">
+            <h2>Ready to Elevate Your Brand?</h2>
+            <p>Let's grow together! Get in touch for a free consultation and take your business to the next level.</p>
+            <a href="#contact-form" class="cta-btn">Book a Free Consultation</a>
+        </div>
+    
+        <!-- Contact Form -->
+        <div class="contact-form" id="contact-form">
+            <h3>Contact Us</h3>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="How can we help you?" rows="4" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    
+        <!-- Platform Selection Popup -->
+        <div class="popup-overlay" id="popupOverlay">
+            <div class="popup-content">
+                <h3>Choose a Platform to Send Your Message</h3>
+                <div class="platform-options">
+                    <a href="https://wa.me/+263788513666" target="_blank">  <button class="platform-btn" id="whatsappBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                        WhatsApp
+                    </button>
+                    </a>
+                    <a href="https://www.instagram.com/_thegovenor/" target="_blank">
+                    <button class="platform-btn" id="instagramBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+                        Instagram
+                    </button>
+                </a>
+                <a href="https://web.facebook.com/tapuwa.mapfumo.3" target="_blank">
+                    <button class="platform-btn" id="facebookBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                        Facebook
+                    </button>
+                </a>
+                </div>
+                <button class="close-btn" id="closePopup">Close</button>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+    const contactForm = document.getElementById('contactForm');
+    const popupOverlay = document.getElementById('popupOverlay');
+    const closePopup = document.getElementById('closePopup');
+
+    // Show popup when form is submitted
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent form submission
+        popupOverlay.classList.add('active'); // Show popup
+    });
+
+    // Close popup when close button is clicked
+    closePopup.addEventListener('click', function () {
+        popupOverlay.classList.remove('active'); // Hide popup
+    });
+
+    // Handle platform selection
+    const whatsappBtn = document.getElementById('whatsappBtn');
+    const instagramBtn = document.getElementById('instagramBtn');
+    const facebookBtn = document.getElementById('facebookBtn');
+
+    whatsappBtn.addEventListener('click', function () {
+        alert('Redirecting to WhatsApp...');
+        // Add WhatsApp redirection logic here
+    });
+
+    instagramBtn.addEventListener('click', function () {
+        alert('Redirecting to Instagram...');
+        // Add Instagram redirection logic here
+    });
+
+    facebookBtn.addEventListener('click', function () {
+        alert('Redirecting to Facebook...');
+        // Add Facebook redirection logic here
+    });
+});
+        </script>
+    </section>
+    
+
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">GFG | Studios</a></div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar" id="sidebar">
+            <ul class="sidebar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+
+
+
+    <footer>
+        <div class="footer-content" id="contact">
+            
+    <section >
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p> gfgmedia@gmail.com | +263 78 851 3666</p>
+            </div>
+            <div class="social-media">
+                <div class="icons">
+                    <div>
+                        <a href="https://wa.me/+260762357426" target="_blank">
+                          <img src="imgs/logo.png" alt="WhatsApp">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.instagram.com/_thegovenor/" target="_blank">
+                          <img src="imgs/instagram.png" alt="Instagram">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://web.facebook.com/tapuwa.mapfumo.3" target="_blank">
+                          <img src="imgs/facebook.png" alt="Facebook">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="mailto:mapfumotapuwa18@gmail.com">
+                          <img src="imgs/email.png" alt="Email">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.linkedin.com/in/tapuwa-mapfumo-a41a14243/">
+                          <img src="imgs/linkedin.png" alt="linkEdin">
+                        </a>
+                      </div>
+                     
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+          
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 GFG Studios | Designed with ❤️ | Designer , <a href="tapuwamapfumo.netlify.app">TheGovenor</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const introText = document.querySelector(".intro-text");
+            const logo = document.querySelector(".logo");
+            const lightEffect = document.querySelector(".light-effect");
+            const aboutInfo = document.querySelector(".about-info");
+            const serviceInfos = document.querySelectorAll(".service-info");
+            const stackedImages = document.querySelectorAll(".stacked-image");
+            const nav = document.querySelector("nav");
+            const introSection = document.querySelector(".intro");
+            const sidebar = document.getElementById("sidebar");
+            const menuToggle = document.getElementById("menu-toggle");
+            const reveals = document.querySelectorAll('.reveal');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            let currentReveal = 0;
+
+            // Show the intro text after animation
+            setTimeout(() => {
+                introText.classList.add("show");
+                lightEffect.classList.add("show-light");
+
+                // Show the background after the intro text
+                introSection.style.setProperty('--bg-opacity', '1');
+                introSection.style.setProperty('opacity', '1');
+
+                // Make the navbar visible after the intro animation
+                nav.classList.add("visible");
+            }, 500);
+
+            // Toggle sidebar menu
+            menuToggle.addEventListener("click", function() {
+                sidebar.classList.toggle("active");
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener("click", function(event) {
+                if (!sidebar.contains(event.target) && !menuToggle.contains(event.target)) {
+                    sidebar.classList.remove("active");
+                }
+            });
+
+            // Toggle dropdown on click
+            const dropdownLinks = document.querySelectorAll('.sidebar-links > li > a');
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const dropdown = this.nextElementSibling;
+                    if (dropdown) {
+                        e.preventDefault();
+                        dropdown.classList.toggle('active');
+                    }
+                });
+            });
+
+            // Show logo on scroll
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) { // Adjust the scroll threshold as needed
+                    logo.classList.add("show-logo");
+                    nav.classList.add("scrolled");
+                } else {
+                    logo.classList.remove("show-logo");
+                    nav.classList.remove("scrolled");
+                }
+
+                // Show about info on scroll
+                const aboutPosition = aboutInfo.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (aboutPosition < windowHeight - 100) { // Trigger when about section is in view
+                    aboutInfo.classList.add("show");
+                }
+
+                // Show service info on scroll
+                serviceInfos.forEach(serviceInfo => {
+                    const servicePosition = serviceInfo.getBoundingClientRect().top;
+                    if (servicePosition < windowHeight - 100) { // Trigger when service section is in view
+                        serviceInfo.classList.add("show");
+                    }
+                });
+
+                // Show stacked images on scroll
+                stackedImages.forEach(image => {
+                    const imagePosition = image.getBoundingClientRect().top;
+                    if (imagePosition < windowHeight - 100) { // Trigger when image section is in view
+                        image.classList.add("show-image");
+                    }
+                });
+            });
+
+            // Function to show the current reveal
+            function showReveal(index) {
+                reveals.forEach((reveal, i) => {
+                    reveal.classList.remove('active'); // Hide all reveals
+                    if (i === index) {
+                        reveal.classList.add('active'); // Show the current reveal
+                    }
+                });
+            }
+
+            // Show the first reveal initially
+            showReveal(currentReveal);
+
+            // Next button functionality
+            nextBtn.addEventListener('click', function() {
+                currentReveal = (currentReveal + 1) % reveals.length; // Loop back to the first reveal
+                showReveal(currentReveal);
+            });
+
+            // Previous button functionality
+            prevBtn.addEventListener('click', function() {
+                currentReveal = (currentReveal - 1 + reveals.length) % reveals.length; // Loop back to the last reveal
+                showReveal(currentReveal);
+            });
+
+            const navLinks = document.querySelectorAll('.nav-links a');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    const targetId = this.getAttribute('href'); // Get the target section ID
+                    const targetSection = document.querySelector(targetId); // Select the target section
+
+                    // Scroll to the target section
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth' // Smooth scroll
+                    });
+                });
+            });
+        });
+
+        function bringToFront(image) {
+            const container = image.parentElement;
+            const images = container.querySelectorAll('.gallery-image');
+
+            // Move the clicked image to the top
+            images.forEach(img => {
+                img.style.transform = 'translateY(100%)'; // Move all images down
+            });
+
+            image.style.transform = 'translateY(0)'; // Bring the clicked image to the top
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach(item => {
+        item.querySelector(".faq-question").addEventListener("click", () => {
+            item.classList.toggle("active");
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const timelineItems = document.querySelectorAll(".timeline-item");
+
+    const revealOnScroll = () => {
+        const triggerBottom = window.innerHeight * 0.85;
+        
+        timelineItems.forEach(item => {
+            const itemTop = item.getBoundingClientRect().top;
+            
+            if (itemTop < triggerBottom) {
+                item.classList.add("show");
+            }
+        });
+    };
+
+    window.addEventListener("scroll", revealOnScroll);
+    revealOnScroll(); // Trigger on load
+});
+
+
+    </script>
+     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".nav-links a, .sidebar-links a");
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", function(e) {
+            const targetId = this.getAttribute("href");
+
+            // Allow normal navigation for "Home" link
+            if (targetId === "index.html") {
+                return;
+            }
+
+            e.preventDefault(); // Prevent default anchor behavior
+
+            const targetSection = document.querySelector(targetId); // Select the target section
+
+            // Scroll to the target section if it exists
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});
+
+    </script>
+</body>
+</html>

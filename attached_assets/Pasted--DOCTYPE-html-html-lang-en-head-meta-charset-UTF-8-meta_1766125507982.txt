@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG Studio - Digital Agency</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Intro Animation -->
+    <div class="intro" id="home">
+        <div class="gfg">
+            <span class="letter g">G</span>
+            <span class="letter f">F</span>
+            <span class="letter g2">G</span>
+        </div>
+        <div class="media">Studios</div>
+        <img src="imgs/light.png" alt="Light Effect" class="light-effect">
+        
+        <div class="intro-text">
+            <h1>Unleash Creativity & Elevate Your Brand</h1>
+            <p>Branding | Marketing | Graphic Design | Media</p>
+        </div>
+    </div>
+
+    <section id="why-choose-us">
+        <div class="container">
+            <h2>Our Mission?</h2>
+            <p>GFG Studios exists to bridge the gap between brands and their audiences by delivering high-quality design, compelling content, and strategic marketing solutions that drive growth and visibility.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Branding & Identity (Foundation)</h3>
+                    <p>We build brands that attract customers.</p>
+                
+                </div>
+    
+                <div class="feature">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Marketing & Sales Growth (Getting Customers)</h3>
+                    <p>We dont just market, we bring paying customers.</p>
+                  
+                </div>
+    
+                <div class="feature">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Premium Business Growth (Scaling & Automation)</h3>
+                    <p>We scale businesses and make sales effortless</p>
+                </div>
+    
+              
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-package">
+            <div class="service-info">
+               <a href="branding.html"> <h3>Branding</h3></a>
+                <p>We help you create a strong brand identity.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Content Creation</li>
+                    <li>Social Media Management</li>
+                    <li>Ideas</li>
+                    <li>Consultation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="service-package ">
+            <div class="service-info">
+               <a href="marketing.html"> <h3>Marketing</h3> </a>
+                <p>Effective marketing strategies to grow your business.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Email Marketing</li>
+                    <li>Social Media Marketing</li>
+                    <li>Ads</li>
+                    <li>Poster Design</li>
+                    <li>SEO</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="service-package">
+            <div class="service-info">
+                <a href="media.html"><h3>Graphic Designing</h3></a>
+                <p>Creative designs that capture attention.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Logo Designing</li>
+                    <li>Flyer Design</li>
+                    <li>Banner Design</li>
+                    <li>Web and App Design</li>
+                    <li>Photoshop</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="service-package">
+            <div class="service-info">
+                <a href="media.html"><h3>Media</h3></a>
+                <p>High-quality media production services.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Photography</li>
+                    <li>Videography</li>
+                    <li>VFX</li>
+                    <li>CGI</li>
+                    <li>Modeling and Rendering</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="service-package">
+            <div class="service-info">
+                <a href="software.html"><h3>Web & App Development</h3></a>
+                <p>Building responsive and user-friendly applications.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li>Design</li>
+                    <li>Developing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        
+        <div class="gallery-content">
+            <div class="gallery-grid">
+                <img src="imgs/pexels-jenyzest-2306222.jpg" alt="Gallery Image 1" class="gallery-image">
+                <img src="imgs/pexels-prime-cinematics-1005175-2057477.jpg" alt="Gallery Image 2" class="gallery-image">
+                <img src="imgs/pexels-mikhail-nilov-7624888.jpg" alt="Gallery Image 3" class="gallery-image">
+                
+            </div>
+            <div class="gallery-description">
+                <h3>Showcasing Our Photography</h3>
+                <p>Explore our collection of stunning photography that captures the essence of creativity and innovation. Our work spans various genres, including portrait, landscape, and event photography, ensuring that every moment is beautifully preserved.</p>
+                
+                <a href="https://www.instagram.com/_thegovenor/" target="_blank" class="show-more">Show More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-info">
+                <h3>Who We Are</h3>
+                <p>GFG Studios is a digital marketing agency dedicated to helping brands grow through innovative strategies and creative solutions. Our team of experts specializes in branding, marketing, graphic design, and media production, ensuring that your brand stands out in a competitive market.</p>
+
+                <h2>Vission</h2>
+                <p>To be the leading creative agency that helps businesses establish a powerful online presence through branding, content creation, and digital marketing.</p>
+            </div>
+            <div class="about-image">
+                <img src="imgs/pexels-kenilev-terku-1653746-17888950.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <section class="reveals">
+        <h1>Voices of satisfaction and success</h1>
+        <p></p>
+        <div class="reveal-container">
+            <div class="reveal active">
+                <h3>Innovative Solutions</h3>
+                <p>We specialize in delivering cutting-edge technology solutions tailored to meet the unique needs of businesses and individuals. Our goal is to help you stay ahead in a fast-evolving digital landscape.</p>
+            </div>
+            <div class="reveal">
+                <h3>Our Commitment</h3>
+                <p>We believe in transparency, efficiency, and excellence. Whether you're a startup or an established enterprise, we provide scalable solutions designed to enhance productivity and growth.</p>
+            </div>
+            <div class="reveal">
+                <h3>Why Choose Us?</h3>
+                <p>With a team of experts in various fields, we ensure every project is executed with precision. Our services range from web development and AI integration to marketing and branding strategies.</p>
+            </div>
+            <div class="reveal">
+                <h3>Client Success Stories</h3>
+                <p>Our clients have seen remarkable improvements in their business operations. From doubling online engagement to achieving seamless automation, our solutions drive real results.</p>
+            </div>
+            <div class="reveal">
+                <h3>Future Innovations</h3>
+                <p>The world of technology is always evolving, and so are we. We continuously research and implement new trends to ensure our clients remain ahead of the curve in their respective industries.</p>
+            </div>
+        </div>
+        
+        <button class="prev" id="prevBtn">❮ </button>
+        <button class="next" id="nextBtn"> ❯</button>
+    </section>
+    <section class="pricing-section" id="pricing">
+        <h2 class="pricing-title">Our Pricing Plans</h2>
+        <p class="pricing-subtitle">Choose the perfect plan for your business needs.</p>
+    
+        <div class="pricing-container" >
+    
+            <!-- Web Development -->
+            <div class="pricing-card">
+                <h3 class="pricing-plan">Web Development</h3>
+                <ul class="pricing-features">
+                    <div>
+                        <li><strong>Basic ($50)</strong></li>
+                        <li>✔ 1-Page Website</li>
+                        <li>✔ Responsive Design</li>
+                        <li>✔ Basic SEO Optimization</li>
+                        <li>✔ Contact Form</li>
+                        <li>✖ E-commerce & Advanced Features</li>
+                    </div>
+                  
+                    <div>
+                        <li><strong>Standard ($100)</strong></li>
+                    <li>✔ Up to 5 Pages</li>
+                    <li>✔ Advanced SEO & Google Indexing</li>
+                    <li>✔ Blog Integration</li>
+                    <li>✔ Social Media Integration</li>
+                    <li>✔ CMS (WordPress, Shopify, etc.)</li>
+                    </div>
+                    
+                    <div>
+                        <li><strong>Pro ($300)</strong></li>
+                        <li>✔ Unlimited Pages</li>
+                        <li>✔ E-Commerce & Payment Integration</li>
+                        <li>✔ Custom Features (API, Memberships, etc.)</li>
+                        <li>✔ Speed & Security Optimization</li>
+                        <li>✔ Full Backend Development</li>
+                    </div>
+                  
+                </ul>
+                <button class="pricing-btn">Get Started</button>
+            </div>
+    
+           <!-- Branding -->
+<div class="pricing-card">
+    <h3 class="pricing-plan">Branding</h3>
+    
+    <ul class="pricing-features">
+        <div>
+            <li><strong>Basic Brand Package ($20)</strong></li>
+            <li>✔ Logo Design + Basic Brand Colors</li>
+            <li>✔ Social Media Account Setup (2 platforms)</li>
+            <li>✔ Basic SEO Optimization</li>
+            <li>Simple website template setup</li>
+        </div>
+       
+        <div>
+            <li><strong>Standard Brand Package ($50)</strong></li>
+            <li>✔ Everything in Basic</li>
+            <li>✔ Business Card & Letterhead Design</li>
+            <li>✔ Social Media Profile Branding (All major platforms)</li>
+            <li>✔ SEO Website Optimization + Basic Analytics</li>
+            <li>Custom website design (up to 5 pages)</li>
+        </div>
+    
+        <div>
+            <li><strong>Pro Brand Package ($100)</strong></li>
+            <li>✔ Everything in Standard</li>
+            <li>✔ Full Brand Guidelines Document</li>
+            <li>✔ Complete Website Design & Development</li>
+            <li>✔ Advanced SEO & Google Analytics Setup</li>
+            <li>✔ Social Media Content Strategy & Templates</li>
+            <li>✔ Branded Marketing Materials (Brochures, Email Templates)</li>
+        </div>    
+    </ul>
+    
+    <button class="pricing-btn">Get Started</button>
+</div>
+    
+            <!-- Marketing -->
+            <div class="pricing-card">
+                <h3 class="pricing-plan">Marketing</h3>
+                <ul class="pricing-features">
+                    <div>
+                        <li><strong>Basic ($150 / month)</strong></li>
+                   <li>✔ Social Media Account Setup</li>
+                    <li>✔ Facebook Ads Campaign</li>
+                     <li>✔ Custome Posts designs</li>
+                     <li>✔ Account Management</li>
+                      <li>✔ Monthly Analytics Report</li>
+                    </div>
+                    
+                    <div>
+                        <li><strong>Standard ($250)</strong></li>
+                       <li>✔ Everything in Basic</li>
+                        <li>✔ Email Marketing Campaign</li>
+                        <li>✔ SEO Optimization</li>
+                        <li>✔ Google Ads & Facebook Ads</li>
+                         <li>✔ Monthly Analytics Report</li>
+                    </div>
+                  
+                    <div>
+                        <li><strong>Pro ($350)</strong></li>
+                        <li>✔ Everything in Standard</li>
+                        <li>✔ Full Digital Marketing Strategy</li>
+                        <li>✔ Advanced Conversion Optimization</li>
+                        <li>✔ Monthly Analytics Report</li>
+                    </div>
+                   
+                </ul>
+                <button class="pricing-btn">Get Started</button>
+            </div>
+    
+            <!-- Photography -->
+            <div class="pricing-card">
+                <h3 class="pricing-plan">Photography</h3>
+                <ul class="pricing-features">
+                    <div>
+                        <li><strong>Basic ($10)</strong></li>
+                    <li>✔ 1-Hour Photoshoot</li>
+                    <li>✔ 10 Edited Photos</li>
+                    </div>
+                    
+                    <div>
+                        <li><strong>Standard ($30)</strong></li>
+                        <li>✔ Everything in Basic</li>
+                        <li>✔ Event Coverage (Up to 4 Hours)</li>
+                        <li>✔ 50 Edited Photos</li>
+                    </div>
+                   
+                    <div>
+                        <li><strong>Pro ($60)</strong></li>
+                    <li>✔ Everything in Standard</li>
+                    <li>✔ Full-Day Coverage</li>
+                    <li>✔ 100 Edited Photos</li>
+                    <li>✔ Photo Album</li>
+                    </div>
+                    
+                </ul>
+                <button class="pricing-btn">Get Started</button>
+            </div>
+    
+            <!-- Videography -->
+            <div class="pricing-card">
+                <h3 class="pricing-plan">Videography</h3>
+                <ul class="pricing-features">
+                    <div>
+                        <li><strong>Basic ($25)</strong></li>
+                    <li>✔ Short Video Clips (2 Minutes)</li>
+                    <li>✔ Basic Editing & Transitions</li>
+                    </div>
+                    
+                    <div>
+                        <li><strong>Standard ($80)</strong></li>
+                    <li>✔ Everything in Basic</li>
+                    <li>✔ Full Event Coverage</li>
+                    <li>✔ Professional Editing & Effects</li>
+                    </div>
+                    
+                    <div>
+                        <li><strong>Pro ($250)</strong></li>
+                        <li>✔ Everything in Standard</li>
+                        <li>✔ 4K Cinematic Production</li>
+                        <li>✔ Drone Shots & Custom Animations</li>
+                    </div>
+                   
+                </ul>
+                <button class="pricing-btn">Get Started</button>
+            </div>
+    
+            <!-- One-Time Services -->
+            <div class="pricing-card one-time">
+                <h3 class="pricing-plan">One-Time Services</h3>
+                <ul class="pricing-features">
+                    <div>
+                        <li>✔ Logo Design - $5</li>
+                        <li>✔ Flyer Design - $7</li>
+                        <li>✔ Business Card Design - $5</li>
+                        <li>✔ Single Photoshoot - $2</li>
+                        <li>✔ Social Media Post Design - $5</li>
+                        <li>✔ Product Photography - $15</li>
+                        <li>✔ Short Video Ad - $10</li>
+                    </div>
+                   
+                </ul>
+                <button class="pricing-btn">Order Now</button>
+            </div>
+    
+        </div>
+    </section>
+    <section class="cta-section" id="contact">
+        <div class="cta-content">
+            <h2>Ready to Elevate Your Brand?</h2>
+            <p>Let's grow together! Get in touch for a free consultation and take your business to the next level.</p>
+            <a href="#contact-form" class="cta-btn">Book a Free Consultation</a>
+        </div>
+    
+        <!-- Contact Form -->
+        <div class="contact-form" id="contact-form">
+            <h3>Contact Us</h3>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="How can we help you?" rows="4" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    
+        <!-- Platform Selection Popup -->
+        <div class="popup-overlay" id="popupOverlay">
+            <div class="popup-content">
+                <h3>Choose a Platform to Send Your Message</h3>
+                <div class="platform-options">
+                    <a href="https://wa.me/+263788513666" target="_blank">  <button class="platform-btn" id="whatsappBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+                        WhatsApp
+                    </button>
+                    </a>
+                    <a href="https://www.instagram.com/_thegovenor/" target="_blank">
+                    <button class="platform-btn" id="instagramBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+                        Instagram
+                    </button>
+                </a>
+                <a href="https://web.facebook.com/tapuwa.mapfumo.3" target="_blank">
+                    <button class="platform-btn" id="facebookBtn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+                        Facebook
+                    </button>
+                </a>
+                </div>
+                <button class="close-btn" id="closePopup">Close</button>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+    const contactForm = document.getElementById('contactForm');
+    const popupOverlay = document.getElementById('popupOverlay');
+    const closePopup = document.getElementById('closePopup');
+
+    // Show popup when form is submitted
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent form submission
+        popupOverlay.classList.add('active'); // Show popup
+    });
+
+    // Close popup when close button is clicked
+    closePopup.addEventListener('click', function () {
+        popupOverlay.classList.remove('active'); // Hide popup
+    });
+
+    // Handle platform selection
+    const whatsappBtn = document.getElementById('whatsappBtn');
+    const instagramBtn = document.getElementById('instagramBtn');
+    const facebookBtn = document.getElementById('facebookBtn');
+
+    whatsappBtn.addEventListener('click', function () {
+        alert('Redirecting to WhatsApp...');
+        // Add WhatsApp redirection logic here
+    });
+
+    instagramBtn.addEventListener('click', function () {
+        alert('Redirecting to Instagram...');
+        // Add Instagram redirection logic here
+    });
+
+    facebookBtn.addEventListener('click', function () {
+        alert('Redirecting to Facebook...');
+        // Add Facebook redirection logic here
+    });
+});
+        </script>
+    </section>
+    <header>
+        <nav>
+            <div class="logo">GFG | Studios</div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar" id="sidebar">
+            <ul class="sidebar-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+
+
+
+    <footer>
+        <div class="footer-content" id="contact">
+            
+    <section >
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><strong>Email:</strong> mapfumotapuwa18@gmail.com</p>
+               <p> gfgmedia@gmail.com | +263 78 851 3666</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <div>
+                        <a href="https://wa.me/+260762357426" target="_blank">
+                          <img src="imgs/logo.png" alt="WhatsApp">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.instagram.com/_thegovenor/" target="_blank">
+                          <img src="imgs/instagram.png" alt="Instagram">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://web.facebook.com/tapuwa.mapfumo.3" target="_blank">
+                          <img src="imgs/facebook.png" alt="Facebook">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="mailto:mapfumotapuwa18@gmail.com">
+                          <img src="imgs/email.png" alt="Email">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.linkedin.com/in/tapuwa-mapfumo-a41a14243/">
+                          <img src="imgs/linkedin.png" alt="linkEdin">
+                        </a>
+                      </div>
+                     
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+          
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 GFG Studios | Designed with ❤️ | Designer , <a href="taps.html">TheGovenor</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const introText = document.querySelector(".intro-text");
+            const logo = document.querySelector(".logo");
+            const lightEffect = document.querySelector(".light-effect");
+            const aboutInfo = document.querySelector(".about-info");
+            const serviceInfos = document.querySelectorAll(".service-info");
+            const stackedImages = document.querySelectorAll(".stacked-image");
+            const nav = document.querySelector("nav");
+            const introSection = document.querySelector(".intro");
+            const sidebar = document.getElementById("sidebar");
+            const menuToggle = document.getElementById("menu-toggle");
+            const reveals = document.querySelectorAll('.reveal');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            let currentReveal = 0;
+
+            // Show the intro text after animation
+            setTimeout(() => {
+                introText.classList.add("show");
+                lightEffect.classList.add("show-light");
+
+                // Show the background after the intro text
+                introSection.style.setProperty('--bg-opacity', '1');
+                introSection.style.setProperty('opacity', '1');
+
+                // Make the navbar visible after the intro animation
+                nav.classList.add("visible");
+            }, 3000);
+
+            // Toggle sidebar menu
+            menuToggle.addEventListener("click", function() {
+                sidebar.classList.toggle("active");
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener("click", function(event) {
+                if (!sidebar.contains(event.target) && !menuToggle.contains(event.target)) {
+                    sidebar.classList.remove("active");
+                }
+            });
+
+            // Toggle dropdown on click
+            const dropdownLinks = document.querySelectorAll('.sidebar-links > li > a');
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const dropdown = this.nextElementSibling;
+                    if (dropdown) {
+                        e.preventDefault();
+                        dropdown.classList.toggle('active');
+                    }
+                });
+            });
+
+            // Show logo on scroll
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) { // Adjust the scroll threshold as needed
+                    logo.classList.add("show-logo");
+                    nav.classList.add("scrolled");
+                } else {
+                    logo.classList.remove("show-logo");
+                    nav.classList.remove("scrolled");
+                }
+
+                // Show about info on scroll
+                const aboutPosition = aboutInfo.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (aboutPosition < windowHeight - 100) { // Trigger when about section is in view
+                    aboutInfo.classList.add("show");
+                }
+
+                // Show service info on scroll
+                serviceInfos.forEach(serviceInfo => {
+                    const servicePosition = serviceInfo.getBoundingClientRect().top;
+                    if (servicePosition < windowHeight - 100) { // Trigger when service section is in view
+                        serviceInfo.classList.add("show");
+                    }
+                });
+
+                // Show stacked images on scroll
+                stackedImages.forEach(image => {
+                    const imagePosition = image.getBoundingClientRect().top;
+                    if (imagePosition < windowHeight - 100) { // Trigger when image section is in view
+                        image.classList.add("show-image");
+                    }
+                });
+            });
+
+            // Function to show the current reveal
+            function showReveal(index) {
+                reveals.forEach((reveal, i) => {
+                    reveal.classList.remove('active'); // Hide all reveals
+                    if (i === index) {
+                        reveal.classList.add('active'); // Show the current reveal
+                    }
+                });
+            }
+
+            // Show the first reveal initially
+            showReveal(currentReveal);
+
+            // Next button functionality
+            nextBtn.addEventListener('click', function() {
+                currentReveal = (currentReveal + 1) % reveals.length; // Loop back to the first reveal
+                showReveal(currentReveal);
+            });
+
+            // Previous button functionality
+            prevBtn.addEventListener('click', function() {
+                currentReveal = (currentReveal - 1 + reveals.length) % reveals.length; // Loop back to the last reveal
+                showReveal(currentReveal);
+            });
+
+            const navLinks = document.querySelectorAll('.nav-links a');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    const targetId = this.getAttribute('href'); // Get the target section ID
+                    const targetSection = document.querySelector(targetId); // Select the target section
+
+                    // Scroll to the target section
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth' // Smooth scroll
+                    });
+                });
+            });
+        });
+
+        function bringToFront(image) {
+            const container = image.parentElement;
+            const images = container.querySelectorAll('.gallery-image');
+
+            // Move the clicked image to the top
+            images.forEach(img => {
+                img.style.transform = 'translateY(100%)'; // Move all images down
+            });
+
+            image.style.transform = 'translateY(0)'; // Bring the clicked image to the top
+        }
+    </script>
+</body>
+</html>
