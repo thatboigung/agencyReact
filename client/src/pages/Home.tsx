@@ -209,94 +209,106 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Using Unsplash images as placeholders for missing assets */}
             {/* tech workspace dark setup */}
-            <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900">
-              <img 
-                src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80" 
-                alt="Workspace Design" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Office Branding</h4>
-                  <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Interior & Identity</p>
+            <Link href="/portfolio">
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900 cursor-pointer">
+                <img 
+                  src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=800&q=80" 
+                  alt="Workspace Design" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Office Branding</h4>
+                    <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Interior & Identity</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* neon abstract shapes */}
-            <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900">
-              <img 
-                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" 
-                alt="Cyberpunk Art" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Digital Art</h4>
-                  <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">3D & Motion</p>
+            <Link href="/portfolio">
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900 cursor-pointer">
+                <img 
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" 
+                  alt="Cyberpunk Art" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Digital Art</h4>
+                    <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">3D & Motion</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* modern camera lens */}
-            <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900">
-              <img 
-                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80" 
-                alt="Photography" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Product Shoot</h4>
-                  <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Photography</p>
+            <Link href="/portfolio">
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900 cursor-pointer">
+                <img 
+                  src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80" 
+                  alt="Photography" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Product Shoot</h4>
+                    <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Photography</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* minimalist web interface */}
-            <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900">
-              <img 
-                src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80" 
-                alt="Web Interface" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">E-Commerce UI</h4>
-                  <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Web Design</p>
+            <Link href="/portfolio">
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900 cursor-pointer">
+                <img 
+                  src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80" 
+                  alt="Web Interface" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">E-Commerce UI</h4>
+                    <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Web Design</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* brand guidelines book */}
-            <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900">
-              <img 
-                src="https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80" 
-                alt="Brand Identity" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Corporate Identity</h4>
-                  <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Branding</p>
+            <Link href="/portfolio">
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900 cursor-pointer">
+                <img 
+                  src="https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80" 
+                  alt="Brand Identity" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Corporate Identity</h4>
+                    <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Branding</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
 
             {/* creative meeting */}
-            <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900">
-              <img 
-                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80" 
-                alt="Strategy" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Growth Strategy</h4>
-                  <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Marketing</p>
+            <Link href="/portfolio">
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-900 cursor-pointer">
+                <img 
+                  src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80" 
+                  alt="Strategy" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">Growth Strategy</h4>
+                    <p className="text-primary text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">Marketing</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
