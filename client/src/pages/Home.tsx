@@ -140,48 +140,60 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <ServiceCard 
-              icon={Palette}
-              title="Branding"
-              description="Crafting unique identities that resonate with your target audience."
-              items={["Visual Identity", "Content Strategy", "Social Media Kits"]}
-              delay={0}
-            />
-            <ServiceCard 
-              icon={BarChart3}
-              title="Marketing"
-              description="Data-driven strategies to amplify your reach and ROI."
-              items={["Email Campaigns", "Social Media Ads", "SEO & Analytics"]}
-              delay={0.1}
-            />
-            <ServiceCard 
-              icon={Layout}
-              title="Graphic Design"
-              description="Stunning visuals that communicate your message instantly."
-              items={["Logo Design", "Flyers & Banners", "UI/UX Design"]}
-              delay={0.2}
-            />
-            <ServiceCard 
-              icon={Camera}
-              title="Media Production"
-              description="High-quality photography and videography for modern brands."
-              items={["Event Photography", "Promotional Videos", "VFX & CGI"]}
-              delay={0.3}
-            />
-            <ServiceCard 
-              icon={Code2}
-              title="Web Development"
-              description="Fast, responsive, and beautiful websites that convert."
-              items={["Custom Design", "Full-Stack Dev", "Maintenance"]}
-              delay={0.4}
-            />
-            <ServiceCard 
-              icon={Globe}
-              title="App Development"
-              description="Native and cross-platform mobile applications."
-              items={["iOS & Android", "UI/UX Design", "Performance Tuning"]}
-              delay={0.5}
-            />
+            <Link href="/service/branding">
+              <ServiceCard 
+                icon={Palette}
+                title="Branding"
+                description="Crafting unique identities that resonate with your target audience."
+                items={["Visual Identity", "Content Strategy", "Social Media Kits"]}
+                delay={0}
+              />
+            </Link>
+            <Link href="/service/marketing">
+              <ServiceCard 
+                icon={BarChart3}
+                title="Marketing"
+                description="Data-driven strategies to amplify your reach and ROI."
+                items={["Email Campaigns", "Social Media Ads", "SEO & Analytics"]}
+                delay={0.1}
+              />
+            </Link>
+            <Link href="/service/media">
+              <ServiceCard 
+                icon={Layout}
+                title="Graphic Design"
+                description="Stunning visuals that communicate your message instantly."
+                items={["Logo Design", "Flyers & Banners", "UI/UX Design"]}
+                delay={0.2}
+              />
+            </Link>
+            <Link href="/service/media">
+              <ServiceCard 
+                icon={Camera}
+                title="Media Production"
+                description="High-quality photography and videography for modern brands."
+                items={["Event Photography", "Promotional Videos", "VFX & CGI"]}
+                delay={0.3}
+              />
+            </Link>
+            <Link href="/service/web-development">
+              <ServiceCard 
+                icon={Code2}
+                title="Web Development"
+                description="Fast, responsive, and beautiful websites that convert."
+                items={["Custom Design", "Full-Stack Dev", "Maintenance"]}
+                delay={0.4}
+              />
+            </Link>
+            <Link href="/service/app-development">
+              <ServiceCard 
+                icon={Globe}
+                title="App Development"
+                description="Native and cross-platform mobile applications."
+                items={["iOS & Android", "UI/UX Design", "Performance Tuning"]}
+                delay={0.5}
+              />
+            </Link>
           </div>
         </div>
       </section>

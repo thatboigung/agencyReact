@@ -9,6 +9,11 @@ import Pricing from "@/pages/Pricing";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Portfolio from "@/pages/Portfolio";
+import BrandingService from "@/pages/BrandingService";
+import MarketingService from "@/pages/MarketingService";
+import WebDevelopment from "@/pages/WebDevelopment";
+import AppDevelopment from "@/pages/AppDevelopment";
+import MediaProduction from "@/pages/MediaProduction";
 
 function Router() {
   return (
@@ -18,6 +23,11 @@ function Router() {
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/portfolio" component={Portfolio} />
+      <Route path="/service/branding" component={BrandingService} />
+      <Route path="/service/marketing" component={MarketingService} />
+      <Route path="/service/web-development" component={WebDevelopment} />
+      <Route path="/service/app-development" component={AppDevelopment} />
+      <Route path="/service/media" component={MediaProduction} />
       <Route component={NotFound} />
     </Switch>
   );
