@@ -5,6 +5,7 @@ import { Link, useLocation } from "wouter";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ServiceCard } from "@/components/ServiceCard";
+import TestimonialSlider from "@/components/TestimonialSlider";
 
 export default function Home() {
   const [location] = useLocation();
@@ -60,9 +61,9 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
             className="mb-8 flex justify-center space-x-4 md:space-x-12"
-          >
-            {['G', 'F', 'G'].map((letter, i) => (
-              <motion.span
+            >
+              {['G', 'F', 'G'].map((letter, i) => (
+                <motion.span
                 key={i}
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -74,7 +75,7 @@ export default function Home() {
             ))}
           </motion.div>
 
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.8 }}
@@ -145,6 +146,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <TestimonialSlider />
 
       {/* Services Section */}
       <section id="services" className="py-24 relative">
