@@ -35,12 +35,12 @@ export default function BrandingService() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl"
         >
-          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Our Service</span>
+          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Your Competitive Edge</span>
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            Branding & Identity
+            Get a Brand Your Customers Can't Ignore
           </h1>
           <p className="text-white/60 text-xl leading-relaxed mb-8 max-w-2xl">
-            We craft distinctive brand identities that resonate with your audience and set you apart from competitors. From logo design to comprehensive brand guidelines, we build the foundation of your business success.
+            When your brand stands out, customers remember you, trust you, and choose you. They'll pay premium prices and become loyal advocates. Stop blending in. Dominate your market with a brand that sells.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">
@@ -58,7 +58,7 @@ export default function BrandingService() {
       {/* Services Grid */}
       <section className="py-24 bg-zinc-950/50 border-y border-white/5">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-display font-bold text-white mb-16">What We Offer</h2>
+          <h2 className="text-4xl font-display font-bold text-white mb-16">What You'll Achieve</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, idx) => {
               const Icon = service.icon;

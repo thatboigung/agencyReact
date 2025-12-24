@@ -1,11 +1,13 @@
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { motion } from "framer-motion";
-import { ExternalLink, Code, Terminal, Palette, Zap } from "lucide-react";
+import { ExternalLink, Code, Terminal, Palette, Zap, ArrowRight } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Portfolio() {
   const projects = [
     {
+      id: 1,
       title: "Chanza Group Profile",
       description: "A creative branding agency website showcasing bold brand strategies and design excellence.",
       link: "https://chanzagroup.netlify.app/",
@@ -14,6 +16,7 @@ export default function Portfolio() {
       category: "Branding"
     },
     {
+      id: 2,
       title: "Konak",
       description: "Digital marketing platform helping businesses build strong brand identity and grow online.",
       link: "https://konak.netlify.app/",
@@ -22,6 +25,7 @@ export default function Portfolio() {
       category: "Marketing"
     },
     {
+      id: 3,
       title: "Witterverse - Social Confessions App",
       description: "Anonymous storytelling platform with real-time interactions for authentic social engagement.",
       link: "#",
@@ -174,41 +178,43 @@ export default function Portfolio() {
                 transition={{ delay: idx * 0.1 }}
                 className="group rounded-2xl overflow-hidden bg-zinc-900 border border-white/5 hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/10"
               >
-                <div className="aspect-video overflow-hidden relative">
-                  <img 
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    {project.link !== "#" && (
-                      <a href={project.link} target="_blank" rel="noopener noreferrer" className="p-3 bg-primary rounded-full text-black hover:scale-110 transition-transform">
-                        <ExternalLink className="w-5 h-5" />
-                      </a>
-                    )}
+                <Link href={project.id ? `/project/${project.id}` : "#"}>
+                  <div className="cursor-pointer">
+                    <div className="aspect-video overflow-hidden relative">
+                      <img 
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <div className="p-3 bg-primary rounded-full text-black hover:scale-110 transition-transform">
+                          <ArrowRight className="w-5 h-5" />
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="p-6">
+                      <div className="flex items-start justify-between mb-3">
+                        <h3 className="text-xl font-bold text-white group-hover:text-primary transition-colors">{project.title}</h3>
+                        <span className="text-primary text-xs font-bold uppercase bg-primary/10 px-3 py-1 rounded-full">
+                          {project.category}
+                        </span>
+                      </div>
+                      
+                      <p className="text-white/60 text-sm mb-4 leading-relaxed">
+                        {project.description}
+                      </p>
+                      
+                      <div className="flex flex-wrap gap-2">
+                        {project.technologies.map((tech, i) => (
+                          <span key={i} className="text-xs text-white/50 bg-white/5 px-2.5 py-1 rounded-lg border border-white/10">
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
-                </div>
-                
-                <div className="p-6">
-                  <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-xl font-bold text-white">{project.title}</h3>
-                    <span className="text-primary text-xs font-bold uppercase bg-primary/10 px-3 py-1 rounded-full">
-                      {project.category}
-                    </span>
-                  </div>
-                  
-                  <p className="text-white/60 text-sm mb-4 leading-relaxed">
-                    {project.description}
-                  </p>
-                  
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech, i) => (
-                      <span key={i} className="text-xs text-white/50 bg-white/5 px-2.5 py-1 rounded-lg border border-white/10">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+                </Link>
               </motion.div>
             ))}
           </div>

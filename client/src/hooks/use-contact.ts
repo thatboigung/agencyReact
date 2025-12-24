@@ -1,18 +1,17 @@
 import { useMutation } from "@tanstack/react-query";
 import { api, type InsertContactMessage } from "@shared/routes";
 import { useToast } from "@/hooks/use-toast";
-import { handleApiRequest } from "../lib/mockApi";
 
 export function useContact() {
   const { toast } = useToast();
 
   return useMutation({
     mutationFn: async (data: InsertContactMessage) => {
-      const res = await handleApiRequest(
-        api.contact.submit.method,
-        api.contact.submit.path,
-        data,
-      );
+      const res = await fetch(api.contact.submit.path, {
+        method: api.contact.submit.method,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
 
       if (!res.ok) {
         const error = await res.json();

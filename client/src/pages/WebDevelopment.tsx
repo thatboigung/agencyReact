@@ -26,12 +26,12 @@ export default function WebDevelopment() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl"
         >
-          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Our Service</span>
+          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Your Sales Machine</span>
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            Web Development
+            A Website That Sells While You Sleep
           </h1>
           <p className="text-white/60 text-xl leading-relaxed mb-8 max-w-2xl">
-            Modern, fast, and secure websites built with cutting-edge technology. From e-commerce to corporate sites, we create digital experiences that convert visitors into customers.
+            Your website isn't just pretty—it's a 24/7 sales machine. Every visitor has zero friction. Every visitor sees your value. Every visitor becomes a customer. More revenue, zero effort, forever.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">

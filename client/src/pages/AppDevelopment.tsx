@@ -37,12 +37,12 @@ export default function AppDevelopment() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl"
         >
-          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Our Service</span>
+          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Your Revenue Engine</span>
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            App Development
+            Apps Your Customers Can't Live Without
           </h1>
           <p className="text-white/60 text-xl leading-relaxed mb-8 max-w-2xl">
-            Custom mobile and web applications built to scale. Whether you need iOS, Android, or cross-platform solutions, we deliver apps that users love.
+            Get an app that becomes essential to your customers. Recurring revenue. Loyal users locked in. Market dominance. Turn your business into an indispensable service they depend on daily.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">

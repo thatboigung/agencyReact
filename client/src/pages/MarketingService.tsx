@@ -35,12 +35,12 @@ export default function MarketingService() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl"
         >
-          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Our Service</span>
+          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Your Growth Engine</span>
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            Growth Marketing
+            Consistent Stream of Quality Customers
           </h1>
           <p className="text-white/60 text-xl leading-relaxed mb-8 max-w-2xl">
-            Strategic marketing campaigns designed to attract, engage, and convert your target audience. From SEO to social media, we drive measurable results that grow your business.
+            Stop struggling to find customers. Get a predictable system that brings them to you. More leads. Higher conversion rates. Growing revenue. Watch your competition disappear while your business scales.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">
@@ -58,7 +58,7 @@ export default function MarketingService() {
       {/* Services Grid */}
       <section className="py-24 bg-zinc-950/50 border-y border-white/5">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-display font-bold text-white mb-16">Marketing Services</h2>
+          <h2 className="text-4xl font-display font-bold text-white mb-16">Your Growth Tools</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, idx) => {
               const Icon = service.icon;

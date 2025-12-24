@@ -33,12 +33,12 @@ export default function MediaProduction() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl"
         >
-          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Our Service</span>
+          <span className="text-primary font-bold tracking-widest text-sm uppercase mb-4 block">Your Visual Power</span>
           <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6">
-            Photography & Videography
+            Content That Stops Scrolling and Sells
           </h1>
           <p className="text-white/60 text-xl leading-relaxed mb-8 max-w-2xl">
-            Stunning visual content that tells your story. From professional photography to cinematic videos, we create media that captivates your audience.
+            In a sea of mediocre content, yours will stand out and captivate. People will stop scrolling. They'll watch. They'll feel connected. They'll buy from you. Your visual presence becomes your competitive weapon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/contact">

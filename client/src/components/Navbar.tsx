@@ -1,12 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { ThemeContext } from "./ThemeProvider";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [location] = useLocation();
+  const themeContext = useContext(ThemeContext);
+  const { theme, toggleTheme } = themeContext || { theme: "dark", toggleTheme: () => {} };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +23,7 @@ export function Navbar() {
     { name: "Home", href: "/" },
     { name: "Services", href: "/#services" },
     { name: "Founder", href: "/portfolio" },
+    { name: "Blogs", href: "/blogs" },
     { name: "Pricing", href: "/pricing" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
@@ -43,12 +47,14 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-black/80 backdrop-blur-md border-b border-white/5 py-4" : "bg-transparent py-6"
+        scrolled 
+          ? "bg-background/80 dark:bg-black/80 backdrop-blur-md border-b border-foreground/10 dark:border-white/5 py-4" 
+          : "bg-transparent py-6"
       }`}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="text-2xl font-display font-bold tracking-tighter hover:opacity-80 transition-opacity">
-          <span className="text-white">GFG</span>
+          <span className="text-foreground">GFG</span>
           <span className="text-primary">STUDIOS</span>
         </Link>
 
@@ -58,12 +64,20 @@ export function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-white/80 hover:text-primary transition-colors uppercase tracking-wider"
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors uppercase tracking-wider"
               onClick={() => handleNavClick(link.href)}
             >
               {link.name}
             </Link>
           ))}
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-foreground/80 hover:text-primary transition-colors rounded-lg hover:bg-background/50"
+            aria-label="Toggle theme"
+            data-testid="button-toggle-theme"
+          >
+            {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
+          </button>
           <Link href="/contact">
             <button className="px-5 py-2 rounded-full bg-primary text-black font-bold text-sm hover:bg-white transition-colors">
               Get Started
@@ -71,13 +85,23 @@ export function Navbar() {
           </Link>
         </nav>
 
-        {/* Mobile Toggle */}
-        <button
-          className="md:hidden text-white hover:text-primary transition-colors"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+        {/* Mobile Controls */}
+        <div className="md:hidden flex items-center gap-2">
+          <button
+            onClick={toggleTheme}
+            className="p-2 text-foreground hover:text-primary transition-colors rounded-lg hover:bg-background/50"
+            aria-label="Toggle theme"
+            data-testid="button-toggle-theme-mobile"
+          >
+            {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
+          </button>
+          <button
+            className="text-foreground hover:text-primary transition-colors"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
@@ -87,14 +111,14 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-zinc-950 border-b border-white/5 overflow-hidden"
+            className="md:hidden bg-card dark:bg-zinc-950 border-b border-foreground/10 dark:border-white/5 overflow-hidden"
           >
             <nav className="flex flex-col p-6 space-y-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="text-lg font-medium text-white/80 hover:text-primary transition-colors"
+                  className="text-lg font-medium text-foreground/80 hover:text-primary transition-colors"
                   onClick={() => handleNavClick(link.href)}
                 >
                   {link.name}
